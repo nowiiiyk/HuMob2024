@@ -1,0 +1,11 @@
+# Ignore CSV files
+.csv
+
+# Ignore pickle files
+.pkl
+
+# Ignore gzip files
+.gz
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints
