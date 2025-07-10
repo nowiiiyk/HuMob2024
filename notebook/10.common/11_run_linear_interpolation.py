@@ -23,8 +23,8 @@ def main():
     INTERPOLATE_N = 24
 
     # 入出力パス
-    INPUT_PATH = "../../data/2025/city_D_challengedata.csv.gz"
-    OUTPUT_PATH = f"../../data/2025/city_D_challengedata_interpolated_n{INTERPOLATE_N}.csv"
+    INPUT_PATH = "../../data/city_B_challengedata.csv.gz"
+    OUTPUT_PATH = f"../../data/city_B_challengedata_interpolated_n{INTERPOLATE_N}.csv"
     
     # ---------------------------- データ読み込み・分割 -----------------------------------
     df = pd.read_csv(INPUT_PATH)
